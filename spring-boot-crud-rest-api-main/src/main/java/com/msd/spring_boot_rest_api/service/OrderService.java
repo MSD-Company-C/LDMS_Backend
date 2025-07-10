@@ -1,10 +1,10 @@
-package com.learnwithiftekhar.spring_boot_rest_api.service;
+package com.msd.spring_boot_rest_api.service;
 
-import com.learnwithiftekhar.spring_boot_rest_api.model.Order;
-import com.learnwithiftekhar.spring_boot_rest_api.repository.OrderRepository;
+import com.msd.spring_boot_rest_api.model.Order;
+import com.msd.spring_boot_rest_api.repository.OrderRepository;
 import org.springframework.stereotype.Service;
-import com.learnwithiftekhar.spring_boot_rest_api.model.Driver;
-import com.learnwithiftekhar.spring_boot_rest_api.repository.DriverRepository;
+import com.msd.spring_boot_rest_api.model.Driver;
+import com.msd.spring_boot_rest_api.repository.DriverRepository;
 import java.util.List;
 import java.util.Optional;
 import java.util.Random;
@@ -174,7 +174,7 @@ public class OrderService {
     }
 
     public List<Order> getOrdersByStatus(List<String> of) {
-        // TODO Auto-generated method stub
+       
         throw new UnsupportedOperationException("Unimplemented method 'getOrdersByStatus'");
     }
 
