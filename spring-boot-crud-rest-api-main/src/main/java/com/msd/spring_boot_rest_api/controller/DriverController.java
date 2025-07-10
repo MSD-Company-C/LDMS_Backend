@@ -13,7 +13,7 @@ import com.msd.spring_boot_rest_api.repository.DriverRepository;
 
 @RestController
 @RequestMapping("/api/drivers")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://logistics-and-delivery-management-s-silk.vercel.app/")
 public class DriverController {
 
     private final DriverRepository driverRepository;
